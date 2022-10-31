@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepageFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This app helps user set their hairstyles without any difficulty by detecting their face shape and suggesting them the best of hairstyles"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorAccent"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/button_next_h"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Next"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:background="@drawable/container_button"-->
+<!--                android:layout_marginLeft="100dp"-->
+<!--                android:layout_marginRight="100dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                />-->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

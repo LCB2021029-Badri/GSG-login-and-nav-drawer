@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Login+NavDrawer</string>
+    <string name="scroll1">Style - 1</string>
+    <string name="scroll2">Style - 2</string>
+    <string name="scroll3">Style - 3</string>
+    <string name="scroll4">Style - 4</string>
+    <string name="scroll5">Style - 5</string>
+    <string name="scroll6">Style - 6</string>
+    <string name="scroll7">Style - 7</string>
+    <string name="scroll8">Style - 8</string>
+    <string name="scroll9">Style - 9</string>
+    <string name="scroll10">Style - 10</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- data for the recycler view to be implemented in fragment   -->
+    <!--    news    -->
+    <string name="news_a">yo nigga</string>
+    <!--    headlines    -->
+    <string name="head_a">Hello nigga</string>
+
+</resources>

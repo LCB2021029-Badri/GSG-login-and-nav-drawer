@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--  "showIn" to use this preview tool  -->
+
+    <item
+        android:title="Hair-styles">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_drawer_cam"
+            android:icon="@drawable/ic_cam"
+            android:title="Get Started"/>
+        <item
+            android:id="@+id/nav_drawer_top"
+            android:icon="@drawable/ic_top_search"
+            android:title="Top Search"/>
+        <item
+            android:id="@+id/nav_drawer_about"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us"/>
+    </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_drawer_logout"
+                android:title="Log-out"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_drawer_share"
+                    android:title="Share "
+                    android:icon="@drawable/ic_share"/>
+                <item
+                    android:id="@+id/nav_drawer_rate"
+                    android:title="Rate Us"
+                    android:icon="@drawable/ic_rateus"/>
+                <item
+                    android:id="@+id/nav_drawer_contact"
+                    android:title="Contact Us"
+                    android:icon="@drawable/ic_contactus"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

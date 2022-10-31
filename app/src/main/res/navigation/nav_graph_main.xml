@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/homepageFragment">
+
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.example.get_set_go.HomepageFragment"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" >
+        <action
+            android:id="@+id/action_homepageFragment_to_camFragment"
+            app:destination="@id/camFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/camFragment"
+        android:name="com.example.get_set_go.CamFragment"
+        android:label="fragment_cam"
+        tools:layout="@layout/fragment_cam" >
+        <action
+            android:id="@+id/action_camFragment_to_stylesFragment"
+            app:destination="@id/stylesFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_camFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/stylesFragment"
+        android:name="com.example.get_set_go.StylesFragment"
+        android:label="fragment_styles"
+        tools:layout="@layout/fragment_styles" >
+        <action
+            android:id="@+id/action_stylesFragment_to_camFragment"
+            app:destination="@id/camFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:popEnterAnim="@android:anim/fade_in" />
+    </fragment>
+</navigation>
